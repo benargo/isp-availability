@@ -3,8 +3,7 @@ $(function() {
 		$(".members form").submit();
 	});
 	
-	$("a.day").click(function(event) {
-		event.preventDefault();
+	$(".day").click(function() {
 		
 		var day = $(this).attr("id");
 		
