@@ -112,7 +112,7 @@
 
 		<!-- Footer -->
 		<footer>
-			<p>Copyright &copy; 2012 <a href="http://benargo.com/">Ben Argo</a>. Generated on <time datetime="<?php echo date("Y-m-d H:i"); ?>"><?php echo date("j F Y"); ?> at <?php echo date("H:i"); ?></time> using <a href="http://benargo.com/tags/php">PHP</a>, <a href="http://benargo.com/tags/xml">XML</a>, <a href="http://benargo.com/tags/jquery">jQuery</a> and <a href="http://benargo.com/tags/less">LESS</a>. <a href="https://github.com/benargo/isp-availability">Github repository</a>.</p>
+			<p>Copyright &copy; 2012 <a href="http://benargo.com/">Ben Argo</a>. Generated on <time datetime="<?php echo date("Y-m-d H:i"); ?>"><?php echo date("j F Y"); ?> at <?php echo date("H:i"); ?></time> using <a href="http://benargo.com/tags/php">PHP</a>, <a href="http://benargo.com/tags/xml">XML</a>, <a href="http://benargo.com/tags/jquery">jQuery</a> and <a href="http://benargo.com/tags/less">LESS</a>. All the code can be found on <a href="https://github.com/benargo/isp-availability">Github</a>.</p>
 		</footer>
 		<!-- Footer -->
 	</body>
