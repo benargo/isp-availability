@@ -51,14 +51,14 @@ body article .week .day:last-of-type {
 body article .week .day.false {
   background-color: #F08080;
 }
-body article .week .day:hover {
-  background-color: #EEEEEE;
-}
 body article .week .day h3 {
   font-size: 0.8em;
   margin: 2px;
   text-align: right;
   z-index: 1;
+}
+body article .week a.day:hover {
+  background-color: #EEEEEE;
 }
 body footer {
   margin: 10px 0;
