@@ -2,7 +2,7 @@
 <availability>
 	
 	<week id="37">
-		<day code="monday" date="04/09">
+		<day code="monday" date="0409">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -10,7 +10,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="tuesday" date="04/10">
+		<day code="tuesday" date="0410">
 			<member id="argo" free="false"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -18,7 +18,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="wednesday" date="04/11">
+		<day code="wednesday" date="0411">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -26,7 +26,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="thursday" date="04/12">
+		<day code="thursday" date="0412">
 			<member id="argo" free="false"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -34,7 +34,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="friday" date="04/13">
+		<day code="friday" date="0413">
 			<member id="argo" free="false"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -42,7 +42,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="saturday" date="04/14">
+		<day code="saturday" date="0414">
 			<member id="argo" free="false"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -50,7 +50,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="sunday" date="04/15">
+		<day code="sunday" date="0415">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -61,7 +61,7 @@
 	</week>
 
 	<week id="38">
-		<day code="monday" date="04/16">
+		<day code="monday" date="0416">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -69,7 +69,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="tuesday" date="04/17">
+		<day code="tuesday" date="0417">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -77,7 +77,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="wednesday" date="04/18">
+		<day code="wednesday" date="0418">
 			<member id="argo" free="false"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -85,7 +85,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="thursday" date="04/19">
+		<day code="thursday" date="0419">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -93,7 +93,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="friday" date="04/20">
+		<day code="friday" date="0420">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -101,7 +101,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="saturday" date="04/21">
+		<day code="saturday" date="0421">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -109,7 +109,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="sunday" date="04/22">
+		<day code="sunday" date="0422">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -120,7 +120,7 @@
 	</week>
 	
 	<week id="36">
-		<day code="monday" date="04/23">
+		<day code="monday" date="0423">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -128,7 +128,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="tuesday" date="04/24">
+		<day code="tuesday" date="0424">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -136,7 +136,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="wednesday" date="04/25">
+		<day code="wednesday" date="0425">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -144,7 +144,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="thursday" date="04/26">
+		<day code="thursday" date="0426">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -152,7 +152,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="friday" date="04/27">
+		<day code="friday" date="0427">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -160,7 +160,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="saturday" date="04/28">
+		<day code="saturday" date="0428">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -168,7 +168,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="sunday" date="04/29">
+		<day code="sunday" date="0429">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -179,7 +179,7 @@
 	</week>
 	
 	<week id="40">
-		<day code="monday" date="04/30">
+		<day code="monday" date="0430">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -187,7 +187,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="tuesday" date="05/01">
+		<day code="tuesday" date="0501">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -195,7 +195,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="wednesday" date="05/02">
+		<day code="wednesday" date="0502">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -203,7 +203,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="thursday" date="05/03">
+		<day code="thursday" date="0503">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -211,7 +211,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="friday" date="05/04">
+		<day code="friday" date="0504">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -219,7 +219,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="saturday" date="05/05">
+		<day code="saturday" date="0505">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -227,7 +227,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="sunday" date="05/06">
+		<day code="sunday" date="0506">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -238,7 +238,7 @@
 	</week>
 	
 	<week id="41">
-		<day code="monday" date="05/07">
+		<day code="monday" date="0507">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -246,7 +246,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="tuesday" date="05/08">
+		<day code="tuesday" date="0508">
 			<member id="argo" free="false"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -254,7 +254,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="wednesday" date="05/09">
+		<day code="wednesday" date="0509">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -262,7 +262,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="thursday" date="05/10">
+		<day code="thursday" date="0510">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -270,7 +270,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="friday" date="05/11">
+		<day code="friday" date="0511">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -278,7 +278,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="saturday" date="05/12">
+		<day code="saturday" date="0512">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -286,7 +286,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="sunday" date="05/13">
+		<day code="sunday" date="0513">
 			<member id="argo" free="false"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -297,7 +297,7 @@
 	</week>
 	
 	<week id="42">
-		<day code="monday" date="05/14">
+		<day code="monday" date="0514">
 			<member id="argo" free="false"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -305,7 +305,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="tuesday" date="05/15">
+		<day code="tuesday" date="0515">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -313,7 +313,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="wednesday" date="05/16">
+		<day code="wednesday" date="0516">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -321,7 +321,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="thursday" date="05/17">
+		<day code="thursday" date="0517">
 			<member id="argo" free="false"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -329,7 +329,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="friday" date="05/18">
+		<day code="friday" date="0518">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -337,7 +337,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="saturday" date="05/19">
+		<day code="saturday" date="0519">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -345,7 +345,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="sunday" date="05/20">
+		<day code="sunday" date="0520">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -356,7 +356,7 @@
 	</week>
 
 	<week id="43">
-		<day code="monday" date="05/21">
+		<day code="monday" date="0521">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -364,7 +364,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="tuesday" date="05/22">
+		<day code="tuesday" date="0522">
 			<member id="argo" free="false"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -372,7 +372,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="wednesday" date="05/23">
+		<day code="wednesday" date="0523">
 			<member id="argo" free="false"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -380,7 +380,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="thursday" date="05/24">
+		<day code="thursday" date="0524">
 			<member id="argo" free="false"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -388,7 +388,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="friday" date="05/25">
+		<day code="friday" date="0525">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -396,7 +396,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="saturday" date="05/26">
+		<day code="saturday" date="0526">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
@@ -404,7 +404,7 @@
 			<member id="khatun" free="true"/>
 			<member id="money" free="true"/>
 		</day>
-		<day code="sunday" date="05/27">
+		<day code="sunday" date="0527">
 			<member id="argo" free="true"/>
 			<member id="arnett" free="true"/>
 			<member id="fursman" free="true"/>
