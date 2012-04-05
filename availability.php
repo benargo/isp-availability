@@ -76,7 +76,13 @@
 					}
 					
 					// Print out the opening day tag
-					echo '<a href="#" class="day '. $member_name .' '. $free .'" id="'. $day->attributes()->date .'">';
+					if($member == "all") {
+						echo '<div';
+					} else {
+						echo '<a href="#"';
+					}
+					
+					echo ' class="day '. $member_name .' '. $free .'" id="'. $day->attributes()->date .'">';
 					
 					// Process the day of the week
 					$weekday = ucfirst($day->attributes()->code);
@@ -99,8 +105,12 @@
 					echo '<h3>'. $weekday .' '. $date .' '. $month .'</h3>';
 				
 					// Print out the closing day tag
-					echo '</a>';
-					
+					if($member == "all") {
+						echo '</div>';
+					} else {
+						echo '</a>';
+					}
+				
 				} // End daily loop
 					
 				// Print out the closing section tag
