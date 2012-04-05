@@ -90,7 +90,7 @@
 					$weekday = ucfirst($day->attributes()->code);
 					
 					// Process the date
-					$date = substr($day->attributes()->date, 3);
+					$date = substr($day->attributes()->date, 2);
 					
 					// Process the month
 					$month = substr($day->attributes()->date, 0, 2);
