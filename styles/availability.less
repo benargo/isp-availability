@@ -32,12 +32,17 @@ body {
 			margin: 0 0 10px;
 		}
 
+			
 		.week {
 			width: 980px;
 			margin: 0 auto;
 			border: solid 1px #000000;
 			border-top: 0px;
-			
+
+			h2 {
+				display: none;
+			}
+
 			&:first-of-type {
 				border-top: solid 1px #000000;
 			}
@@ -48,26 +53,27 @@ body {
 				height: 100px;
 				color: #333333;
 				text-decoration: none;
-				
+
 				border-right: solid 1px #000000;
-				
+
 				&:last-of-type {
 					border-right: 0px;
 					width: 140px;
 				}
-				
+
 				&.false {
 					background-color: #F08080;
 				}
-				
+
 				&:hover {
 					background-color: #EEEEEE;
 				}
-				
+
 				h3 {
 					font-size: 0.8em;
 					margin: 2px;
 					text-align: right;
+					z-index: 1;
 				}
 
 			}
