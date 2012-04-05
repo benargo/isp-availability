@@ -9,7 +9,5 @@ $select = $xml->xpath("//day[@date='". $day ."']/member[@id='". $member ."']");
 
 $select[0]->attributes()->free = $newstatus;
 
-var_dump($xml->asXML());
-
 file_put_contents("availability.xml", $xml->asXML());
 ?>
