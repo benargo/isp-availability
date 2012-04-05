@@ -31,9 +31,6 @@ body article .week {
   border: solid 1px #000000;
   border-top: 0px;
 }
-body article .week h2 {
-  display: none;
-}
 body article .week:first-of-type {
   border-top: solid 1px #000000;
 }
@@ -44,6 +41,14 @@ body article .week .day {
   color: #333333;
   text-decoration: none;
   border-right: solid 1px #000000;
+}
+body article .week .day.title {
+  height: auto;
+  padding: 10px 0;
+}
+body article .week .day.title h2 {
+  font-size: 1.0em;
+  text-align: center;
 }
 body article .week .day:last-of-type {
   border-right: 0px;

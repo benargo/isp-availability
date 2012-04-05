@@ -39,11 +39,7 @@ body {
 			margin: 0 auto;
 			border: solid 1px #000000;
 			border-top: 0px;
-
-			h2 {
-				display: none;
-			}
-
+			
 			&:first-of-type {
 				border-top: solid 1px #000000;
 			}
@@ -56,6 +52,17 @@ body {
 				text-decoration: none;
 
 				border-right: solid 1px #000000;
+
+				&.title {
+					height: auto;
+					padding: 10px 0;
+					
+					h2 {
+						font-size: 1.0em;
+						text-align: center;
+					}
+					
+				}
 
 				&:last-of-type {
 					border-right: 0px;

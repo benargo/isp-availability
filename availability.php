@@ -46,6 +46,7 @@
 			<p>This lightweight, XML-based application should help us determine what dates we have free throughout the holiday and exam period.</p>
 			<p>Simply select your name from the drop-down list, then click on a square to change its status. White indicates you are free, whilst red indicates you are busy.</p>
 			<p>Selecting "All members" will show days when all members are free in white. Red in this case indicates one or more members may be busy.</p>
+			<section class="week" id="title"><div class="day title"><h2>Monday</h2></div><div class="day title"><h2>Tuesday</h2></div><div class="day title"><h2>Wednesday</h2></div><div class="day title"><h2>Thursday</h2></div><div class="day title"><h2>Friday</h2></div><div class="day title"><h2>Saturday</h2></div><div class="day title"><h2>Sunday</h2></div></section>
 			<?php
 		
 			// Load the availability XML file
@@ -86,9 +87,6 @@
 					
 					echo ' class="day '. $member_name .' '. $free .'" id="'. $day->attributes()->date .'">';
 					
-					// Process the day of the week
-					$weekday = ucfirst($day->attributes()->code);
-					
 					// Process the date
 					$date = substr($day->attributes()->date, 2);
 					
@@ -104,7 +102,7 @@
 					}
 					
 					// Print out the date
-					echo '<h3>'. $weekday .' '. $date .' '. $month .'</h3>';
+					echo '<h3>'. $date .' '. $month .'</h3>';
 				
 					// Print out the closing day tag
 					if($member == "all") {
