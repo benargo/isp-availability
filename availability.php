@@ -24,7 +24,7 @@
 	<body>
 		<header>
 			<section class="members">
-				<form action="index.php" method="get">
+				<form action="availability.php" method="get">
 					<select name="member">
 							<option value="all" <?php if($member == "all") { echo 'selected="selected"'; } ?>>All Members</option>
 						<optgroup label="Team Members">
