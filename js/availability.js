@@ -34,11 +34,11 @@ $(function() {
 		}
 		
 		if($(this).hasClass("false")) {
-			var newStatus = "false";
+			var newStatus = "true";
 		}
 		
 		if($(this).hasClass("true")) {
-			var newStatus = "true";
+			var newStatus = "false";
 		}
 		
 		$.ajax({
