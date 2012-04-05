@@ -43,7 +43,8 @@
 		
 		<!-- Article -->
 		<article>
-			<p>This lightweight, XML-based application should help us determine what dates we have free throughout the holiday and exam period. Simply select your name from the drop-down list, then click on a square to change its status. White indicates you are free, whilst red indicates you are busy.</p>
+			<p>This lightweight, XML-based application should help us determine what dates we have free throughout the holiday and exam period.</p>
+			<p>Simply select your name from the drop-down list, then click on a square to change its status. White indicates you are free, whilst red indicates you are busy.</p>
 			<p>Selecting "All members" will show days when all members are free in white. Red in this case indicates one or more members may be busy.</p>
 			<?php
 		
