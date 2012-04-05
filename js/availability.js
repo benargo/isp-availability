@@ -31,11 +31,11 @@ $(function() {
 			var member = "money";
 		}
 		
-		if($(this).hasClass("free")) {
+		if($(this).hasClass("false")) {
 			var newStatus = "false";
 		}
 		
-		if($(this).hasClass("busy")) {
+		if($(this).hasClass("true")) {
 			var newStatus = "true";
 		}
 		
