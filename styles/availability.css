@@ -1,0 +1,65 @@
+body {
+  width: 980px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Helvetica", sans-serif;
+}
+body * {
+  margin: 0;
+}
+body header {
+  padding: 10px 0;
+}
+body header h1 {
+  font-size: 1.4em;
+}
+body header .members {
+  float: right;
+}
+body header .members form {
+  display: inline-block;
+}
+body article p {
+  line-height: 1.5em;
+  margin: 0 0 10px;
+}
+body article .week {
+  width: 980px;
+  margin: 0 auto;
+  border: solid 1px #000000;
+  border-top: 0px;
+}
+body article .week:first-of-type {
+  border-top: solid 1px #000000;
+}
+body article .week .day {
+  display: inline-block;
+  width: 139px;
+  height: 100px;
+  color: #333333;
+  text-decoration: none;
+  border-right: solid 1px #000000;
+}
+body article .week .day:last-of-type {
+  border-right: 0px;
+  width: 140px;
+}
+body article .week .day.busy {
+  background-color: #F08080;
+}
+body article .week .day:hover {
+  background-color: #EEEEEE;
+}
+body article .week .day h3 {
+  font-size: 0.8em;
+  margin: 2px;
+  text-align: right;
+}
+body footer {
+  margin: 10px 0;
+}
+body footer p {
+  margin: 0;
+  font-size: 0.7em;
+}
