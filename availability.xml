@@ -103,7 +103,7 @@
 		</day>
 		<day code="saturday" date="0421">
 			<member id="argo" free="true"/>
-			<member id="arnett" free="true"/>
+			<member id="arnett" free="false"/>
 			<member id="fursman" free="true"/>
 			<member id="jegtnes" free="true"/>
 			<member id="khatun" free="true"/>
