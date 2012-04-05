@@ -57,6 +57,9 @@ body article .week .day h3 {
   text-align: right;
   z-index: 1;
 }
+body article .week a.day {
+  cursor: pointer;
+}
 body article .week a.day:hover {
   background-color: #EEEEEE;
 }

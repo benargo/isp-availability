@@ -81,7 +81,7 @@
 					if($member == "all") {
 						echo '<div';
 					} else {
-						echo '<a href="#"';
+						echo '<a';
 					}
 					
 					echo ' class="day '. $member_name .' '. $free .'" id="'. $day->attributes()->date .'">';
