@@ -2,11 +2,12 @@ body {
   width: 980px;
   height: 100%;
   margin: 0 auto;
-  padding: 0;
+  padding: 10px;
   font-family: "Helvetica", sans-serif;
 }
 body * {
   margin: 0;
+  padding: 0;
 }
 body header {
   padding: 10px 0;
