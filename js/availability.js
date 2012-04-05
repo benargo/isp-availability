@@ -3,7 +3,9 @@ $(function() {
 		$(".members form").submit();
 	});
 	
-	$("a.day").click(function() {
+	$("a.day").click(function(event) {
+		event.preventDefault();
+		
 		var day = $(this).attr("id");
 		
 		if($(this).hasClass("argo")) {
