@@ -1,6 +1,6 @@
 <?php
 	if(!isset($_GET['member'])) {
-		$member = "argo";
+		$member = "all";
 	} else {
 		$member = $_GET['member'];
 	}
@@ -24,11 +24,9 @@
 	<body>
 		<header>
 			<section class="members">
-				<form action="availability.xml" method="post">
-					<input type="submit" value="Print Document" />
-				</form>
 				<form action="index.php" method="get">
 					<select name="member">
+							<option value="all" <?php if($member == "all") { echo 'selected="selected"'; } ?>>All Members</option>
 						<optgroup label="Team Members">
 							<option value="argo" <?php if($member == "argo") { echo 'selected="selected"'; } ?>>Ben Argo</option>
 							<option value="arnett" <?php if($member == "arnett") { echo 'selected="selected"'; } ?>>Ben Arnett</option>
@@ -60,21 +58,25 @@
 				// Loop through each day
 				foreach($week->day as $day) {
 					
-					$person = $day->xpath("member[@id='". $member ."']");
-					$member_name = $person[0]->attributes()->id;
-					$free = $person[0]->attributes()->free;
+					if($member == "all") {
+						$member_name = "all";
+						
+						if($day->xpath("member[@free='false']")) {
+							$free = "false";
+						} else {
+							$free = "true";
+						}
+						
+					} else {
 					
-					switch($free) {
-						case "true":
-							$status = "free";
-							break;
-						case "false":
-							$status = "busy";
-							break;
+						$person = $day->xpath("member[@id='". $member ."']");
+						$member_name = $person[0]->attributes()->id;
+						$free = $person[0]->attributes()->free;
+					
 					}
 					
 					// Print out the opening day tag
-					echo '<a href="#" class="day '. $member_name .' '. $status .'" id="'. $day->attributes()->date .'">';
+					echo '<a href="#" class="day '. $member_name .' '. $free .'" id="'. $day->attributes()->date .'">';
 					
 					// Process the day of the week
 					$weekday = ucfirst($day->attributes()->code);
@@ -110,7 +112,7 @@
 
 		<!-- Footer -->
 		<footer>
-			<p>Copyright &copy; 2012 <a href="http://www.benargo.com/">Ben Argo</a>. Generated on <?php echo date("j F Y"); ?> at <?php echo date("H:i"); ?>. All the code can be found on <a href="https://github.com/benargo/isp-availability">Github</a>.</p>
+			<p>Copyright &copy; 2012 <a href="http://www.benargo.com/">Ben Argo</a>. Generated on <time datetime="<?php echo date("Y-m-d H:i"); ?>"><?php echo date("j F Y"); ?> at <?php echo date("H:i"); ?></time>. All the code can be found on <a href="https://github.com/benargo/isp-availability">Github</a>.</p>
 		</footer>
 		<!-- Footer -->
 	</body>

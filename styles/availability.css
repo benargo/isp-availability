@@ -45,7 +45,7 @@ body article .week .day:last-of-type {
   border-right: 0px;
   width: 140px;
 }
-body article .week .day.busy {
+body article .week .day.false {
   background-color: #F08080;
 }
 body article .week .day:hover {
